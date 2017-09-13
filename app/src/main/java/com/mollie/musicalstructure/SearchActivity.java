@@ -15,6 +15,7 @@ public class SearchActivity extends AppCompatActivity {
 
         setUpMoreButton();
         setUpPurchaseButton();
+        setUpBackButton();
     }
 
     private void setUpMoreButton() {
@@ -34,6 +35,17 @@ public class SearchActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SearchActivity.this, PurchaseActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void setUpBackButton() {
+        Button backButton = (Button) findViewById(R.id.back_to_library_button);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SearchActivity.this, LibraryActivity.class);
                 startActivity(intent);
             }
         });

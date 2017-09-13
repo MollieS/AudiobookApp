@@ -6,6 +6,20 @@
     android:orientation="vertical"
     tools:context="com.mollie.musicalstructure.SearchActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:text="@string/search"
+        android:textSize="34sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/search_page_description"
+        android:textStyle="italic" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,7 +77,8 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_margin="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
         android:background="@color/colorPrimary" />
 
     <Button
@@ -75,11 +90,12 @@
         android:layout_marginTop="8dp"
         android:text="@string/purchase" />
 
-    <TextView
-        android:padding="16dp"
-        android:textStyle="italic"
-        android:layout_width="wrap_content"
-        android:text="@string/search_page_description"
-        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/back_to_library_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/back_to_library" />
 
 </LinearLayout>

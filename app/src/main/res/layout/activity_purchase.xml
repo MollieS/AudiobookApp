@@ -7,9 +7,23 @@
     tools:context="com.mollie.musicalstructure.PurchaseActivity">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/purchase"
+        android:textSize="34sp" />
+
+    <TextView
+        style="@style/PageDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/PageDescription"
         android:text="@string/purchase_page_description" />
+
+    <Button
+        android:id="@+id/back_to_library_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_library" />
 
 </LinearLayout>

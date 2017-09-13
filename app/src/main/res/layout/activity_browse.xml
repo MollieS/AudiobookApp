@@ -7,6 +7,19 @@
     tools:context="com.mollie.musicalstructure.BrowseActivity">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:text="@string/browse"
+        android:textSize="34sp" />
+
+    <TextView
+        style="@style/PageDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/browse_page_description" />
+
+    <TextView
         style="@style/PageTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,10 +101,11 @@
         android:layout_margin="16dp"
         android:background="@color/colorPrimary" />
 
-    <TextView
-        style="@style/PageDescription"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/back_to_library"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/browse_page_description" />
+        android:text="back to library" />
+
 
 </LinearLayout>

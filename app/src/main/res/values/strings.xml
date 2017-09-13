@@ -12,10 +12,10 @@
     <string name="author">Author</string>
     <string name="more">More</string>
     <string name="purchase">purchase</string>
-    <string name="purchase_page_description">This page would let you purchase a book using the stripe API</string>
-    <string name="library_page_description">this page allows users to see the library of audiobooks they have downloaded</string>
-    <string name="search_page_description">this page allows users to search for audiobooks. From the results you can see more information about a book and also purchase the book</string>
-    <string name="detail_page_description">This page allows the user to see more information about the book they are either looking to buy or the book that is currently playing</string>
+    <string name="purchase_page_description">This page would let you purchase a book using the stripe API. It could use the stripe library for android, so that the app does not have to deal with sending card data. It could use Android Pay or a custom card form. That data would go through the Stripe library and then sent to a server where payment would be processed and, if successful, the audiobook would begin to download.</string>
+    <string name="library_page_description">this page allows users to see the library of audiobooks they have downloaded.  It would connect to phone storage and a user could see the name and author of the book.  Maybe also some information about what chapter they were on etc.</string>
+    <string name="search_page_description">this page allows users to search for audiobooks. From the results you can see more information about a book and also purchase the book.  The search bar would evaluate text input and then send that data to an audiobook API, which would return titles and authors of matching audiobooks, which would appear in a list.</string>
+    <string name="detail_page_description">This page allows the user to see more information about the book they are either looking to buy or the book that is currently playing. It shows book name, book author, price, description.</string>
     <string name="book_description">Here is some text about the book.</string>
     <string name="about">About</string>
     <string name="browse">browse</string>
@@ -24,5 +24,6 @@
     <string name="book_i">book I</string>
     <string name="book_ii">book II</string>
     <string name="book_iii">book III</string>
-    <string name="browse_page_description">this page allows user to browse popular audiobooks, or audiobooks recommended for them</string>
+    <string name="browse_page_description">this page allows user to browse popular audiobooks, or audiobooks recommended for them. It would have to connect to an external audiobook API in order to get audiobook name and author and information on which audiobooks are popular or recommended</string>
+    <string name="back_to_library">back to library</string>
 </resources>
