@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PageTitle" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:fontFamily">light</item>
+        <item name="android:padding">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="PageDescription" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

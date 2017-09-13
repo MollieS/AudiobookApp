@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="library">Library</string>
+    <string name="book_one_title">Book One Title</string>
+    <string name="book_one_author">Book One Author</string>
+    <string name="play">Play</string>
+    <string name="search">search</string>
+    <string name="now_playing">now playing</string>
+    <string name="search_hint">search for new audiobooks</string>
+    <string name="results">Results</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="more">More</string>
+    <string name="purchase">purchase</string>
+    <string name="purchase_page_description">This page would let you purchase a book using the stripe API</string>
+    <string name="library_page_description">this page allows users to see the library of audiobooks they have downloaded</string>
+    <string name="search_page_description">this page allows users to search for audiobooks. From the results you can see more information about a book and also purchase the book</string>
+    <string name="detail_page_description">This page allows the user to see more information about the book they are either looking to buy or the book that is currently playing</string>
+    <string name="book_description">Here is some text about the book.</string>
+    <string name="about">About</string>
+    <string name="browse">browse</string>
+    <string name="recommended">Recommended</string>
+    <string name="popular">Popular</string>
+    <string name="book_i">book I</string>
+    <string name="book_ii">book II</string>
+    <string name="book_iii">book III</string>
+    <string name="browse_page_description">this page allows user to browse popular audiobooks, or audiobooks recommended for them</string>
+</resources>
